@@ -9,8 +9,8 @@ namespace Sim;
 
 
     double mewingLevel;
-    double moggLevel;
-    double hello_kittyLevel;
+    double sedeLevel;
+    double fomeLevel;
 
 
 //-----------------------------------------------------------------------------------------------------
@@ -20,21 +20,18 @@ namespace Sim;
 
 {
     mewingLevel = 0;
-    mogg = 0;
-    hello_kittyLevel poopLevel = 0;
+    sedeLevel = 0;
+    fomeLevel = 0;
 }
 
 
 //-----------------------------------------------------------------------------------------------------
 
 
-    public override string GetStuartImagem()
-{
-      return ""
-}
+    
 
 
-
+//-----------------------------------------------------------------------------------------------------
 
 
 
