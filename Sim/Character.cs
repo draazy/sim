@@ -1,22 +1,26 @@
+using Windows.ApplicationModel.VoiceCommands;
+
 namespace Sim;
 
 
-        public class Character
+        public class Personagem
 {
 
 
-//-----------------------------------------------------------------------------------------------------
 
 
-    double mewingLevel;
-    double sedeLevel;
-    double fomeLevel;
+
+    public int mewingLevel;
+
+    public int sedeLevel;
+
+    public int fomeLevel;
 
 
-//-----------------------------------------------------------------------------------------------------
 
 
-        public Character()
+
+        public Personagem()
 
 {
     mewingLevel = 0;
@@ -28,13 +32,22 @@ namespace Sim;
 //-----------------------------------------------------------------------------------------------------
 
 
-    
+    public void SetFome (int f)
+    {
+        
+        if (1 <= f || f >= 0)
+          
+          mewingLevel = f;
 
+        else if (f > 1)
 
-//-----------------------------------------------------------------------------------------------------
+          mewingLevel = 1;
 
+        else
 
+          mewingLevel = 0;
 
+    }
 
 
 
