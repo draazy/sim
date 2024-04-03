@@ -1,5 +1,3 @@
-using Windows.ApplicationModel.VoiceCommands;
-
 namespace Sim;
 
 

@@ -4,15 +4,46 @@
              x:Class="Sim.MainPage"
              Shell.NavBarIsVisible = "false">
 
-    <VerticalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <Image Source="geladeira.png"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
 
+        <Image Source="geladeira.png"
+               Grid.RowSpan="4"
+               Grid.ColumnSpan="3"
+               Aspect="AspectFill"/>
 
+        <Image Source="nugget.png"
+               Grid.RowSpan="2"
+               Grid.Row="2"
+               Grid.ColumnSpan="3"/>
 
+        <Frame Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="3"
+               Margin="10"
+               BackgroundColor="#4f5c6b">
+            
+        </Frame>
 
+        <Frame Grid.Column="2"
+        Grid.Row="1"
+        Grid.RowSpan="2"
+        Margin="10,0"
+               BackgroundColor="#4f5c6b">
+        </Frame>
 
-    </VerticalStackLayout>
+       
 
-
+    </Grid>
 </ContentPage>

@@ -32826,11 +32826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\sim-1\\Sim\\Sim.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\sim\\sim-1\\Sim\\Sim.csproj",
       "projectName": "Sim",
-      "projectPath": "C:\\Users\\Aluno\\sim-1\\Sim\\Sim.csproj",
+      "projectPath": "C:\\Users\\Aluno\\sim\\sim-1\\Sim\\Sim.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\sim-1\\Sim\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\sim\\sim-1\\Sim\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
